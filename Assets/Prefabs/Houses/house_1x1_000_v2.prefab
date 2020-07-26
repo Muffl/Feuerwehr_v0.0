@@ -14164,7 +14164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9157987807418748508}
   - component: {fileID: 9157987807418748509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: house_1x1_000_v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

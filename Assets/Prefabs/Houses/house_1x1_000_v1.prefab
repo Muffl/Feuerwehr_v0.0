@@ -5016,7 +5016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3736177773899369}
   - component: {fileID: 3736177773899370}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: house_1x1_000_v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

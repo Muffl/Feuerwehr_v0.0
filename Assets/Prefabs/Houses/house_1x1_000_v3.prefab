@@ -137,7 +137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 78317470934473925}
   - component: {fileID: 78317470934473922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: house_1x1_000_v3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
