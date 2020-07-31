@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class BuildingController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject fireParticleSystem = null;
+    public AudioSource fireAudioSource = null;
+   
+
+    private void Awake()
     {
+        fireAudioSource = GetComponent<AudioSource>();
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
 }
