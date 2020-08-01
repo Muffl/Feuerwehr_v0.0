@@ -32,7 +32,7 @@ public class FireTruckController : MonoBehaviour
         _emmision = _waterCannonParticleSystem.emission;
         _audioSource = GetComponent<AudioSource>();
 
-        Cursor.lockState = CursorLockMode.Locked;
+        
        
     }
 
