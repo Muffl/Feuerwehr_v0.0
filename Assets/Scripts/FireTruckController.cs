@@ -46,6 +46,17 @@ public class FireTruckController : MonoBehaviour
         _emmision.enabled = Input.GetButton("Fire1");
 
 
+        if (Input.GetButtonDown("Fire2"))
+        {
+            if (_isCameraLeft)
+                Camera.main.transform.SetParent(_cameraMountRight, false);
+            else
+                Camera.main.transform.SetParent(_cameraMountLeft, false);
+
+            _isCameraLeft = !_isCameraLeft;
+        }
+
+
         if (_emmision.enabled)
         {
             if (!_audioSource.isPlaying)
