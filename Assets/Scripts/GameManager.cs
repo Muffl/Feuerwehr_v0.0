@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
                                             Mathf.FloorToInt(_actualGameTime /60.0f),
                                             Mathf.FloorToInt(_actualGameTime % 60.0f));
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (_isGameStarted && Input.GetKeyDown(KeyCode.Escape))
         {
             if (_isPause)
             {
@@ -93,6 +93,7 @@ public class GameManager : MonoBehaviour
 
             _isPause = !_isPause;
         }
+        Cursor.visible = Cursor.lockState != CursorLockMode.Locked;
     }
 
     private void PutNextBuildingOnFire()

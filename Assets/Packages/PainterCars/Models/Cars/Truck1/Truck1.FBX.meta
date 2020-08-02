@@ -1,37 +1,88 @@
 fileFormatVersion: 2
 guid: a2b3153c715741e49acfea492d82ab0d
-timeCreated: 1508942171
-licenseType: Store
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: Body
-    100002: //RootNode
-    100004: Tube
-    100006: Wheel
-    100008: Object002
-    400000: Body
-    400002: //RootNode
-    400004: Tube
-    400006: Wheel
-    400008: Object002
-    2300000: Body
-    2300002: Tube
-    2300004: Wheel
-    2300006: Object002
-    3300000: Body
-    3300002: Tube
-    3300004: Wheel
-    3300006: Object002
-    4300000: Body
-    4300002: Tube
-    4300004: Wheel
-    4300006: Object002
-    9500000: //RootNode
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Body
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: Tube
+  - first:
+      1: 100006
+    second: Wheel
+  - first:
+      1: 100008
+    second: Object002
+  - first:
+      4: 400000
+    second: Body
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: Tube
+  - first:
+      4: 400006
+    second: Wheel
+  - first:
+      4: 400008
+    second: Object002
+  - first:
+      23: 2300000
+    second: Body
+  - first:
+      23: 2300002
+    second: Tube
+  - first:
+      23: 2300004
+    second: Wheel
+  - first:
+      23: 2300006
+    second: Object002
+  - first:
+      33: 3300000
+    second: Body
+  - first:
+      33: 3300002
+    second: Tube
+  - first:
+      33: 3300004
+    second: Wheel
+  - first:
+      33: 3300006
+    second: Object002
+  - first:
+      43: 4300000
+    second: Body
+  - first:
+      43: 4300002
+    second: Tube
+  - first:
+      43: 4300004
+    second: Wheel
+  - first:
+      43: 4300006
+    second: Object002
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 3b12f7b743f1aaf4984f08a4e51f96f9, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -44,6 +95,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -58,16 +111,22 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -78,10 +137,14 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -91,8 +154,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

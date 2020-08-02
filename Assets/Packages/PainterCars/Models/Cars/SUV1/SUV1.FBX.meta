@@ -1,38 +1,91 @@
 fileFormatVersion: 2
 guid: e91050a13d8432543ada367c148fd813
-timeCreated: 1509178502
-licenseType: Store
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: BampF
-    100002: BampR
-    100004: Body
-    100006: //RootNode
-    100008: Wheel
-    400000: BampF
-    400002: BampR
-    400004: Body
-    400006: //RootNode
-    400008: Wheel
-    2300000: BampF
-    2300002: BampR
-    2300004: Body
-    2300006: Wheel
-    3300000: BampF
-    3300002: BampR
-    3300004: Body
-    3300006: Wheel
-    4300000: Wheel
-    4300002: Body
-    4300004: BampF
-    4300006: BampR
-    7400000: Take 001
-    9500000: //RootNode
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: BampF
+  - first:
+      1: 100002
+    second: BampR
+  - first:
+      1: 100004
+    second: Body
+  - first:
+      1: 100006
+    second: //RootNode
+  - first:
+      1: 100008
+    second: Wheel
+  - first:
+      4: 400000
+    second: BampF
+  - first:
+      4: 400002
+    second: BampR
+  - first:
+      4: 400004
+    second: Body
+  - first:
+      4: 400006
+    second: //RootNode
+  - first:
+      4: 400008
+    second: Wheel
+  - first:
+      23: 2300000
+    second: BampF
+  - first:
+      23: 2300002
+    second: BampR
+  - first:
+      23: 2300004
+    second: Body
+  - first:
+      23: 2300006
+    second: Wheel
+  - first:
+      33: 3300000
+    second: BampF
+  - first:
+      33: 3300002
+    second: BampR
+  - first:
+      33: 3300004
+    second: Body
+  - first:
+      33: 3300006
+    second: Wheel
+  - first:
+      43: 4300000
+    second: Wheel
+  - first:
+      43: 4300002
+    second: Body
+  - first:
+      43: 4300004
+    second: BampF
+  - first:
+      43: 4300006
+    second: BampR
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 3b12f7b743f1aaf4984f08a4e51f96f9, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -45,6 +98,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -52,23 +107,58 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 7400000
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -79,10 +169,14 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -92,8 +186,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
